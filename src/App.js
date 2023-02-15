@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Post from './Components/Post';
+import TripData from './Data/data.js';
+
+TripData.map((item) => console.log(item.title));
 
 function App() {
+  const postArray = TripData.map((item) => {
+    return (
+      <Post 
+        {...item}
+      />
+    )});
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Post 
+        {...TripData[0]}
+      />
+
     </div>
   );
 }
