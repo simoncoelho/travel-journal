@@ -6,18 +6,17 @@ TripData.map((item) => console.log(item.title));
 
 function App() {
   const postArray = TripData.map((item) => {
+    console.log(item.title);
     return (
       <Post 
         {...item}
       />
     )});
+  
 
   return (
     <div className="App">
-      <Post 
-        {...TripData[0]}
-      />
-
+      {postArray}
     </div>
   );
 }

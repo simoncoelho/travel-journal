@@ -14,12 +14,21 @@ code {
     monospace;
 }
 
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffe6e6;
+}
+
 .post {
   display: flex;
   flex-direction: row;
   height: 200px;
   width: 600px;
-  border: 1px solid black;
+  margin: 20px;
 }
 
 .post>img {
