@@ -10,7 +10,7 @@ export default function Post(props) {
             <div className="post--layout">
                 <div className="post--content">
                     <img src={icon} alt="location" />
-                    <p>{props.location}</p>
+                    <p>{props.location.toUpperCase()}</p>
                     <a href="{props.googleMapsUrl}">View on Google Maps</a>
                 </div>
                 <h2>{props.title}</h2>

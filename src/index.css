@@ -20,7 +20,7 @@ code {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: #ffe6e6;
+  background-color: #ffffff;
 }
 
 .post {
@@ -49,12 +49,13 @@ code {
 
 .post--content>p{
   padding-right: 10px;
+  letter-spacing: 2px;
 }
 
 .post--content>img {
-  width: 30px;
-  height: 30px;
-  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
 }
 
 .post--layout{
@@ -67,3 +68,16 @@ code {
   padding-bottom: 0px;
   margin: 0px;
 }
+
+.header-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #a3a3a3f6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px;
+}
+
