@@ -76,8 +76,22 @@ code {
   align-items: center;
   height: 50px;
   width: 100%;
-  background-color: #a3a3a3f6;
+  background-color:#F55A5A;
   border-bottom: 1px solid #e6e6e6;
   padding: 10px;
+  color: white;
+  font: arial;
+}
+
+.header-bar>img {
+  height: 40px;
+  padding-top: 5px;
+}
+
+.header-bar>h1 {
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: 350;
+
 }
 

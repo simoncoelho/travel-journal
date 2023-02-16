@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <div className='header-bar'>
         <img src={logo} alt="logo" />
-        <h1>my travel journal</h1>
+        <h1>my travel journal.</h1>
       </div>
       {postArray}
     </div>
